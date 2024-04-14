@@ -9,6 +9,26 @@
 
 * update libp2p to v1 ([#610](https://github.com/ipfs/js-ipfs-bitswap/issues/610)) ([9f8258d](https://github.com/ipfs/js-ipfs-bitswap/commit/9f8258da440f6b2c5064687bf10136c785344234))
 
+## 1.0.0 (2024-04-14)
+
+
+### Features
+
+* add @helia/bitswap with sessions ([#409](https://github.com/yuiseki/helia/issues/409)) ([e582c63](https://github.com/yuiseki/helia/commit/e582c63ca296c789312f5fcf5e3e18f267f74c03))
+
+
+### Bug Fixes
+
+* increase default listers on abort signals ([#484](https://github.com/yuiseki/helia/issues/484)) ([7cd012a](https://github.com/yuiseki/helia/commit/7cd012aa2ba568845d49d63a71806d20f6ac678f))
+* remove wants from wantlist when multiple block retrievers are used ([#491](https://github.com/yuiseki/helia/issues/491)) ([b1c761d](https://github.com/yuiseki/helia/commit/b1c761db6db7a7aca3044263fdd5e8967204deeb))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @helia/interface bumped from ^4.0.0 to ^5.0.0
+
 ## [19.0.2](https://github.com/ipfs/js-ipfs-bitswap/compare/v19.0.1...v19.0.2) (2023-11-04)
 
 
